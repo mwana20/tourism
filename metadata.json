@@ -1,0 +1,6 @@
+{
+  "name": "Mwanaweika Tours and Travel",
+  "description": "Discover the Pearl of Africa with Mwanaweika Tours and Travel. Authentic Uganda wildlife safaris, gorilla trekking in Bwindi, Nile adventures, and custom safari itineraries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

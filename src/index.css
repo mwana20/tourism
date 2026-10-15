@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-forest: #123D2A;
+  --color-wildlife: #246B45;
+  --color-emerald-accent: #36875B;
+  --color-gold: #D9AC55;
+  --color-ivory: #F7F4EA;
+  --color-charcoal: #202922;
+}
+
+@layer base {
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #202922;
+    background-color: transparent;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom smooth scroll and subtle custom scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars for horizontal filter ribbons while preserving scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
